@@ -13,6 +13,9 @@
 		63509F4625E2C1FA0004F99C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63509F4425E2C1FA0004F99C /* Main.storyboard */; };
 		63509F4825E2C1FB0004F99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63509F4725E2C1FB0004F99C /* Assets.xcassets */; };
 		63509F4B25E2C1FB0004F99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63509F4925E2C1FB0004F99C /* LaunchScreen.storyboard */; };
+		63509F5525E2CD060004F99C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63509F5425E2CD060004F99C /* UserModel.swift */; };
+		63509F5825E2CE3A0004F99C /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63509F5725E2CE3A0004F99C /* DataTableViewController.swift */; };
+		63509F5B25E2CF4C0004F99C /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63509F5A25E2CF4C0004F99C /* DataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		63509F4725E2C1FB0004F99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63509F4A25E2C1FB0004F99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63509F4C25E2C1FB0004F99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63509F5425E2CD060004F99C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		63509F5725E2CE3A0004F99C /* DataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
+		63509F5A25E2CF4C0004F99C /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				63509F4725E2C1FB0004F99C /* Assets.xcassets */,
 				63509F4925E2C1FB0004F99C /* LaunchScreen.storyboard */,
 				63509F4C25E2C1FB0004F99C /* Info.plist */,
+				63509F5425E2CD060004F99C /* UserModel.swift */,
+				63509F5725E2CE3A0004F99C /* DataTableViewController.swift */,
+				63509F5A25E2CF4C0004F99C /* DataLoader.swift */,
 			);
 			path = parseJSON;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63509F5825E2CE3A0004F99C /* DataTableViewController.swift in Sources */,
 				63509F4325E2C1FA0004F99C /* ViewController.swift in Sources */,
+				63509F5B25E2CF4C0004F99C /* DataLoader.swift in Sources */,
 				63509F3F25E2C1FA0004F99C /* AppDelegate.swift in Sources */,
+				63509F5525E2CD060004F99C /* UserModel.swift in Sources */,
 				63509F4125E2C1FA0004F99C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q3XRXS2Y4;
 				INFOPLIST_FILE = parseJSON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q3XRXS2Y4;
 				INFOPLIST_FILE = parseJSON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
