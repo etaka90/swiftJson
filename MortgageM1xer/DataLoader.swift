@@ -11,13 +11,13 @@ public class DataLoader {
     //@Published var userData
     
     @Published var userData = [Results]()
-    
-    init(){
-        load()
+
+    init(url_json: String){
+        load(url_json: url_json)
     }
-    func load(){
-        
-        if let url=URL(string: "https://rickandmortyapi.com/api/character/?page=1")
+    func load(url_json: String){
+        let curl = url_json
+        if let url=URL(string: curl)
           {
         do {
             let data = try Data(contentsOf: url)

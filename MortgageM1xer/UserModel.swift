@@ -21,7 +21,9 @@ struct Info: Decodable{
 }
 
 struct Results: Decodable{
-    var id: Int
-    var name: String
+    //var id: Int
+    var name: String?
+    var comment: String?
+    var created: String?
     var image: String
 }
